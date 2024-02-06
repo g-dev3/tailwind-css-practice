@@ -6,7 +6,24 @@
   <title>test css</title>
   <link rel="stylesheet" href="../output.css">
 </head>
-<body class="bg-slate-900">
+<body class="bg-slate-900 grid place-content-center h-screen">
+
+  <!-- npx tailwindcss -i "./src/input.css" -o "./src/output.css" --watch -->
+
 <h1 class="text-white text-4xl m-6">Test</h1>
+
+<div class="">
+  <div class="p-6 max-w-sm mx-auto bg-white rounded-xl shadow-lg flex items-center space-x-4">
+    <div>
+      <img class="h-12 w-12 " src="https://avatars.githubusercontent.com/u/157769824?v=4" alt="">
+      <div>
+        <div class="text-2xl font-medium">
+          Tailwind Css
+          <p class="text-slate-500 text-base">By Gdev3</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 </body>
 </html>
